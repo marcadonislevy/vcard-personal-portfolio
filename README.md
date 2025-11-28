@@ -1,44 +1,30 @@
-# vCard - Personal portfolio
+# Quoralinex People (Folio-lite)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+A multi-profile staff directory built on the Folio-lite template. Profiles are rendered from JSON, auto-rotate on the homepage, and support dedicated URLs for every teammate.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## Key features
+- JSON-driven profiles with individual URLs (e.g., `/?employee=marclevy` or `/marclevy.html`).
+- Auto-rotating sidebar directory with manual selection.
+- Dynamic About, Resume, Portfolio, Blog, and Contact sections per staff member.
+- Turnstile-protected contact form ready for Cloudflare Workers Email Routing or your preferred webhook.
+- Long-cache headers for static assets via `/_headers`.
+- Brand-forward Quoralinex theme and refreshed imagery.
 
-## Demo
+## Editing content
+1. Update or add teammates in `assets/data/employees.json`.
+   - Each entry includes contact info, socials, about copy, services, resume, skills, portfolio, blog posts, and media paths.
+2. Add/remove dedicated profile entry pages by copying one of the lightweight `*.html` redirect stubs and updating the slug.
+3. Place new brand-approved imagery in `assets/images/` and reference it from the JSON.
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## Cloudflare Pages checklist
+- **Routing:** The query parameter `?employee=<slug>` resolves profiles; lightweight HTML stubs are provided for direct paths (e.g., `/alicejones.html`).
+- **Caching:** `_headers` applies `Cache-Control: public, max-age=31536000, immutable` to `/assets/*`.
+- **Optimization:** In Pages → Speed → Optimization, enable HTML/CSS/JS minification.
+- **Analytics:** Enable Cloudflare Web Analytics in the Pages project for traffic insights.
+- **Turnstile:** Replace the placeholder site key in the contact form with your Turnstile site key; validate tokens in a Worker or backend.
 
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+## Local preview
+Open `index.html` directly in your browser or serve the directory with any static server.
 
 ## License
-
 MIT

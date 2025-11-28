@@ -1,0 +1,826 @@
+{
+  "staff": [
+    {
+      "slug": "marclevy",
+      "name": "Marc Levy",
+      "role": "Engineering Director",
+      "email": "marc.levy@quoralinex.com",
+      "phone": "+44 20 1234 5678",
+      "birthday": "1984-02-17",
+      "location": "London, UK",
+      "avatar": "assets/images/q1x_github_avatar_main_400x400.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/marc-levy-q1x",
+        "github": "https://github.com/Quoralinex",
+        "twitter": "https://twitter.com/quoralinex"
+      },
+      "about": {
+        "intro": "Marc leads platform engineering at Quoralinex, pairing pragmatic delivery with secure-by-default patterns for every client site.",
+        "detail": "He maps business outcomes to resilient architectures, mentors cross-functional squads, and keeps the release train calm with observability-first practices."
+      },
+      "services": [
+        {
+          "title": "Platform leadership",
+          "description": "Guides multi-team platform strategy, balancing velocity with compliance across Cloudflare and edge workloads.",
+          "icon": "assets/images/icon-dev.svg"
+        },
+        {
+          "title": "Security reviews",
+          "description": "Runs repeatable threat modeling and automated hardening baselines for public properties.",
+          "icon": "assets/images/icon-design.svg"
+        },
+        {
+          "title": "Incident readiness",
+          "description": "Choreographs runbooks, drills, and observability packs that shorten mean-time-to-restore.",
+          "icon": "assets/images/icon-photo.svg"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Priya N.",
+          "role": "Product Lead",
+          "avatar": "assets/images/q1x_github_avatar_200x200.png",
+          "quote": "Marc translated our regulatory maze into launch-ready controls without slowing the roadmap.",
+          "date": "2024-03-12"
+        },
+        {
+          "name": "Jonas K.",
+          "role": "CTO",
+          "avatar": "assets/images/q1x_github_avatar_simple_128x128.png",
+          "quote": "His guidance on edge caching cut latency in half and stabilized releases for global users.",
+          "date": "2024-01-27"
+        }
+      ],
+      "clients": [
+        {
+          "name": "Q1X Cloud",
+          "logo": "assets/images/quoralinex_header_dark_transparent_400w.png",
+          "url": "https://quoralinex.com"
+        },
+        {
+          "name": "Strata Fin",
+          "logo": "assets/images/quoralinex_header_light_transparent_400w.png",
+          "url": "https://example.com/strata"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Director of Engineering",
+          "place": "Quoralinex",
+          "period": "2021 — Present",
+          "body": "Leading platform, SRE, and app enablement teams while keeping cloud cost and risk balanced."
+        },
+        {
+          "title": "Principal Architect",
+          "place": "Edgewave",
+          "period": "2016 — 2021",
+          "body": "Scaled multi-tenant APIs, designed observability pipelines, and coached distributed squads."
+        }
+      ],
+      "education": [
+        {
+          "title": "MSc Systems Engineering",
+          "place": "Imperial College London",
+          "period": "2006 — 2007",
+          "body": "Specialised in resilient distributed systems and service design."
+        }
+      ],
+      "skills": [
+        { "name": "Platform architecture", "level": 95 },
+        { "name": "Security automation", "level": 90 },
+        { "name": "Edge performance", "level": 88 },
+        { "name": "Team coaching", "level": 92 }
+      ],
+      "portfolio": [
+        {
+          "title": "Edge gateway hardening",
+          "category": "platform",
+          "image": "assets/images/quoralinex_header_dark_1024w.png",
+          "url": "https://quoralinex.com",
+          "summary": "Implemented mTLS and bot protections for critical customer zones."
+        },
+        {
+          "title": "Release dashboard",
+          "category": "observability",
+          "image": "assets/images/q1x_light_fullcolour_512x512.png",
+          "url": "https://quoralinex.com/insights",
+          "summary": "Unified deploy metrics, alerts, and quality bars into one control plane."
+        },
+        {
+          "title": "Team playbook",
+          "category": "leadership",
+          "image": "assets/images/quoralinex_wordmark_fullcolour_dark_400w.png",
+          "url": "https://quoralinex.com/playbook",
+          "summary": "Codified onboarding and incident drills for distributed squads."
+        }
+      ],
+      "blog": [
+        {
+          "title": "Designing resilient releases",
+          "category": "Engineering",
+          "date": "2024-06-01",
+          "image": "assets/images/quoralinex_og_wordmark_strapline.png",
+          "url": "https://quoralinex.com/blog/resilient-releases",
+          "excerpt": "Five guardrails we keep on every edge deployment." 
+        },
+        {
+          "title": "Caching wins in practice",
+          "category": "Performance",
+          "date": "2024-04-18",
+          "image": "assets/images/quoralinex_wordmark_gradient_transparent.png",
+          "url": "https://quoralinex.com/blog/cache-wins",
+          "excerpt": "Lessons learned while tuning global PoPs." 
+        }
+      ]
+    },
+    {
+      "slug": "alicejones",
+      "name": "Alice Jones",
+      "role": "UX Engineering Lead",
+      "email": "alice.jones@quoralinex.com",
+      "phone": "+1 503 555 0188",
+      "birthday": "1990-08-09",
+      "location": "Portland, OR",
+      "avatar": "assets/images/q1x_github_avatar_400x400.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/alice-jones-ux",
+        "github": "https://github.com/alice-jones",
+        "twitter": "https://twitter.com/aliceux"
+      },
+      "about": {
+        "intro": "Alice turns product intent into accessible experiences with component libraries that teams can trust.",
+        "detail": "She pairs Figma kits with coded design systems, reducing rework and keeping every asset compliant with brand standards."
+      },
+      "services": [
+        {
+          "title": "Design systems",
+          "description": "Builds multi-brand tokens, documentation, and sandboxed components for fast adoption.",
+          "icon": "assets/images/icon-design.svg"
+        },
+        {
+          "title": "Accessibility",
+          "description": "Audits flows against WCAG AA, coaching teams through pragmatic remediation steps.",
+          "icon": "assets/images/icon-dev.svg"
+        },
+        {
+          "title": "Prototype labs",
+          "description": "Runs rapid prototyping sprints to validate risky ideas before development.",
+          "icon": "assets/images/icon-app.svg"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Siena D.",
+          "role": "Head of Product",
+          "avatar": "assets/images/q1x_github_avatar_simple_64x64.png",
+          "quote": "Alice rebuilt our design system in six weeks and halved designer-developer feedback loops.",
+          "date": "2024-05-09"
+        },
+        {
+          "name": "Brandon P.",
+          "role": "Front-end Lead",
+          "avatar": "assets/images/q1x_github_avatar_main_400x400.png",
+          "quote": "Her accessibility reviews ship with code samples, not just issues, which keeps fixes moving.",
+          "date": "2024-02-22"
+        }
+      ],
+      "clients": [
+        {
+          "name": "Northwind Apps",
+          "logo": "assets/images/quoralinex_header_light_transparent_200w.png",
+          "url": "https://example.com/northwind"
+        },
+        {
+          "name": "Q1X Cloud",
+          "logo": "assets/images/q1x_light_fullcolour_1024x1024.png",
+          "url": "https://quoralinex.com"
+        }
+      ],
+      "experience": [
+        {
+          "title": "UX Engineering Lead",
+          "place": "Quoralinex",
+          "period": "2022 — Present",
+          "body": "Owns the multi-brand design system and co-leads front-end hiring and mentoring."
+        },
+        {
+          "title": "Senior Product Designer",
+          "place": "Brightlane",
+          "period": "2018 — 2022",
+          "body": "Scaled experimentation frameworks and analytics-informed UX decisions."
+        }
+      ],
+      "education": [
+        {
+          "title": "BFA Interaction Design",
+          "place": "Parsons School of Design",
+          "period": "2008 — 2012",
+          "body": "Studio focus on human-centered systems and typography."
+        }
+      ],
+      "skills": [
+        { "name": "Design systems", "level": 94 },
+        { "name": "Accessibility", "level": 92 },
+        { "name": "React", "level": 88 },
+        { "name": "Research ops", "level": 82 }
+      ],
+      "portfolio": [
+        {
+          "title": "Multi-brand token library",
+          "category": "design",
+          "image": "assets/images/quoralinex_wordmark_gradient_transparent_1024w.png",
+          "url": "https://quoralinex.com/design-system",
+          "summary": "Unified design tokens consumed across five customer properties."
+        },
+        {
+          "title": "Inclusive checkout",
+          "category": "accessibility",
+          "image": "assets/images/quoralinex_header_light_1024w.png",
+          "url": "https://quoralinex.com/case-studies/checkout",
+          "summary": "Reduced error rates with guided flows and semantic components."
+        }
+      ],
+      "blog": [
+        {
+          "title": "Naming tokens the humane way",
+          "category": "Design Systems",
+          "date": "2024-03-21",
+          "image": "assets/images/q1x_light_1024x1024.png",
+          "url": "https://quoralinex.com/blog/token-naming",
+          "excerpt": "A field guide for keeping tokens readable and stable."
+        }
+      ]
+    },
+    {
+      "slug": "tomjones",
+      "name": "Tom Jones",
+      "role": "Cloud Engineer",
+      "email": "tom.jones@quoralinex.com",
+      "phone": "+1 415 555 0142",
+      "birthday": "1988-03-03",
+      "location": "Austin, TX",
+      "avatar": "assets/images/q1x_github_avatar_main_1024x1024.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/tom-jones-cloud",
+        "github": "https://github.com/tom-jones-cloud",
+        "twitter": "https://twitter.com/tomcloud"
+      },
+      "about": {
+        "intro": "Tom automates infrastructure on Cloudflare Pages and Workers, adding observability without sacrificing speed.",
+        "detail": "He builds IaC blueprints, rollout policies, and deployment pipelines that keep small teams shipping safely."
+      },
+      "services": [
+        {
+          "title": "IaC blueprints",
+          "description": "Reusable Terraform and Wrangler recipes tuned for Cloudflare Pages and KV.",
+          "icon": "assets/images/icon-app.svg"
+        },
+        {
+          "title": "Performance tuning",
+          "description": "Dialed-in caching, minification, and asset headers for every site revision.",
+          "icon": "assets/images/icon-dev.svg"
+        },
+        {
+          "title": "Automation",
+          "description": "ChatOps and CI integrations that keep releases consistent across environments.",
+          "icon": "assets/images/icon-design.svg"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Chen Y.",
+          "role": "Engineering Manager",
+          "avatar": "assets/images/q1x_github_avatar_simple_128x128.png",
+          "quote": "Tom productionised our Pages setup with cache rules and log drains in one sprint.",
+          "date": "2024-01-09"
+        }
+      ],
+      "clients": [
+        {
+          "name": "Atlas Mobility",
+          "logo": "assets/images/quoralinex_header_dark_transparent_200w.png",
+          "url": "https://example.com/atlas"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Cloud Engineer",
+          "place": "Quoralinex",
+          "period": "2020 — Present",
+          "body": "Owns deployment automation, Pages/Workers delivery, and operational playbooks."
+        },
+        {
+          "title": "DevOps Engineer",
+          "place": "Spin Systems",
+          "period": "2015 — 2020",
+          "body": "Implemented pipelines and SRE practices for a suite of B2B services."
+        }
+      ],
+      "education": [
+        {
+          "title": "BSc Computer Science",
+          "place": "UT Austin",
+          "period": "2006 — 2010",
+          "body": "Focused on distributed systems and tooling."
+        }
+      ],
+      "skills": [
+        { "name": "Terraform", "level": 90 },
+        { "name": "Workers/Pages", "level": 92 },
+        { "name": "CI/CD", "level": 88 },
+        { "name": "Monitoring", "level": 84 }
+      ],
+      "portfolio": [
+        {
+          "title": "Pages caching policy",
+          "category": "performance",
+          "image": "assets/images/quoralinex_header_dark_transparent_400w.png",
+          "url": "https://quoralinex.com/docs/cache",
+          "summary": "Shipped immutable asset headers with automated busting."
+        },
+        {
+          "title": "Release bot",
+          "category": "automation",
+          "image": "assets/images/q1x_dark_fullcolour_256x256.png",
+          "url": "https://quoralinex.com/blog/release-bot",
+          "summary": "ChatOps assistant that syncs releases to Pages and Workers."
+        }
+      ],
+      "blog": [
+        {
+          "title": "Configuring _headers for speed",
+          "category": "Performance",
+          "date": "2024-05-30",
+          "image": "assets/images/q1x_dark_512x512.png",
+          "url": "https://quoralinex.com/blog/headers",
+          "excerpt": "Patterns for long-lived asset caching with instant rollbacks."
+        }
+      ]
+    },
+    {
+      "slug": "sarahbean",
+      "name": "Sarah Bean",
+      "role": "Content Strategist",
+      "email": "sarah.bean@quoralinex.com",
+      "phone": "+1 917 555 0100",
+      "birthday": "1992-11-05",
+      "location": "New York, NY",
+      "avatar": "assets/images/q1x_github_avatar_400x400.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/sarahbean",
+        "github": "https://github.com/sarahbean",
+        "twitter": "https://twitter.com/sarahcontent"
+      },
+      "about": {
+        "intro": "Sarah aligns product messaging with developer-first storytelling, ensuring every launch is clear and measurable.",
+        "detail": "She partners with engineers to document patterns, craft landing pages, and publish change logs that customers trust."
+      },
+      "services": [
+        {
+          "title": "Narrative design",
+          "description": "Translates complex edge features into approachable benefits and proofs.",
+          "icon": "assets/images/icon-design.svg"
+        },
+        {
+          "title": "Content ops",
+          "description": "Editorial calendars, release notes, and governance for multi-channel updates.",
+          "icon": "assets/images/icon-photo.svg"
+        },
+        {
+          "title": "Analytics",
+          "description": "Sets goals, dashboards, and experiments to validate content performance.",
+          "icon": "assets/images/icon-dev.svg"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Louis G.",
+          "role": "VP Marketing",
+          "avatar": "assets/images/q1x_github_avatar_simple_64x64.png",
+          "quote": "Sarah's playbooks made technical releases consumable for every audience we care about.",
+          "date": "2024-02-10"
+        }
+      ],
+      "clients": [
+        {
+          "name": "Orbit Data",
+          "logo": "assets/images/quoralinex_og_wordmark_strapline_400w.png",
+          "url": "https://example.com/orbit"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Content Strategist",
+          "place": "Quoralinex",
+          "period": "2021 — Present",
+          "body": "Owns messaging, docs, and storytelling for platform updates."
+        },
+        {
+          "title": "Senior Copywriter",
+          "place": "Channel Nine",
+          "period": "2016 — 2021",
+          "body": "Delivered product narratives across growth campaigns."
+        }
+      ],
+      "education": [
+        {
+          "title": "BA Communication",
+          "place": "NYU",
+          "period": "2010 — 2014",
+          "body": "Focused on digital media and analytics."
+        }
+      ],
+      "skills": [
+        { "name": "Content design", "level": 90 },
+        { "name": "Documentation", "level": 88 },
+        { "name": "Analytics", "level": 82 },
+        { "name": "Launch ops", "level": 86 }
+      ],
+      "portfolio": [
+        {
+          "title": "Platform messaging kit",
+          "category": "content",
+          "image": "assets/images/quoralinex_og_wordmark_strapline_1024w.png",
+          "url": "https://quoralinex.com/resources/messaging",
+          "summary": "A reusable pack of copy blocks and visuals for new modules."
+        }
+      ],
+      "blog": [
+        {
+          "title": "Keeping release notes human",
+          "category": "Content",
+          "date": "2024-04-02",
+          "image": "assets/images/q1x_light_fullcolour_256x256.png",
+          "url": "https://quoralinex.com/blog/release-notes",
+          "excerpt": "Guidelines we use to keep updates scannable." 
+        }
+      ]
+    },
+    {
+      "slug": "lilytang",
+      "name": "Lily Tang",
+      "role": "Data Product Manager",
+      "email": "lily.tang@quoralinex.com",
+      "phone": "+65 6800 0000",
+      "birthday": "1989-12-12",
+      "location": "Singapore",
+      "avatar": "assets/images/q1x_github_avatar_main_400x400.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/lilytang",
+        "github": "https://github.com/lilytang",
+        "twitter": "https://twitter.com/lilydata"
+      },
+      "about": {
+        "intro": "Lily shapes telemetry products that put signal ahead of noise for support and engineering teams.",
+        "detail": "She prioritises roadmap bets with clear success metrics and stories drawn from real user sessions."
+      },
+      "services": [
+        {
+          "title": "Product discovery",
+          "description": "Stakeholder workshops that convert insights into validated hypotheses.",
+          "icon": "assets/images/icon-design.svg"
+        },
+        {
+          "title": "Data storytelling",
+          "description": "Dashboards and narratives that connect usage metrics to decisions.",
+          "icon": "assets/images/icon-photo.svg"
+        },
+        {
+          "title": "Roadmap ops",
+          "description": "Backlog hygiene, prioritisation rituals, and risk surfacing for teams.",
+          "icon": "assets/images/icon-dev.svg"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Hao L.",
+          "role": "Support Director",
+          "avatar": "assets/images/q1x_github_avatar_200x200.png",
+          "quote": "Lily's dashboards finally tied incident volume to feature decisions with clarity.",
+          "date": "2024-05-14"
+        }
+      ],
+      "clients": [
+        {
+          "name": "SignalCore",
+          "logo": "assets/images/quoralinex_header_light_transparent_200w.png",
+          "url": "https://example.com/signalcore"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Data PM",
+          "place": "Quoralinex",
+          "period": "2019 — Present",
+          "body": "Owns telemetry strategy and analytics product surfaces."
+        }
+      ],
+      "education": [
+        {
+          "title": "BSc Information Systems",
+          "place": "NUS",
+          "period": "2007 — 2011",
+          "body": "Focused on data visualisation and systems design."
+        }
+      ],
+      "skills": [
+        { "name": "Product strategy", "level": 88 },
+        { "name": "Analytics", "level": 86 },
+        { "name": "Stakeholder mgmt", "level": 90 },
+        { "name": "Experimentation", "level": 82 }
+      ],
+      "portfolio": [
+        {
+          "title": "Telemetry tiles",
+          "category": "data",
+          "image": "assets/images/quoralinex_wordmark_fullcolour_dark_400w.png",
+          "url": "https://quoralinex.com/data/tiles",
+          "summary": "Pre-built insight cards for platform health."
+        }
+      ],
+      "blog": []
+    },
+    {
+      "slug": "danielcho",
+      "name": "Daniel Cho",
+      "role": "Security Engineer",
+      "email": "daniel.cho@quoralinex.com",
+      "phone": "+82 2 555 0199",
+      "birthday": "1987-06-07",
+      "location": "Seoul, KR",
+      "avatar": "assets/images/q1x_github_avatar_simple_128x128.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/daniel-cho-security",
+        "github": "https://github.com/dcho-sec",
+        "twitter": "https://twitter.com/dcho"
+      },
+      "about": {
+        "intro": "Daniel keeps our Pages and Workers builds compliant with continuous security checks and red-team drills.",
+        "detail": "He automates dependency vetting, secrets hygiene, and bot protection rollouts for every staff site."
+      },
+      "services": [
+        {
+          "title": "Security pipelines",
+          "description": "Dependency scanning, SBOMs, and signed artifacts for CI.",
+          "icon": "assets/images/icon-dev.svg"
+        },
+        {
+          "title": "Threat modeling",
+          "description": "Workshops and playbooks aligned to OWASP and SOC2 controls.",
+          "icon": "assets/images/icon-design.svg"
+        }
+      ],
+      "testimonials": [],
+      "clients": [
+        {
+          "name": "Guardian Labs",
+          "logo": "assets/images/q1x_dark_fullcolour_1024x1024.png",
+          "url": "https://example.com/guardian"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Security Engineer",
+          "place": "Quoralinex",
+          "period": "2020 — Present",
+          "body": "Built automated security checks and patch windows for platform teams."
+        }
+      ],
+      "education": [
+        {
+          "title": "BSc Cybersecurity",
+          "place": "KAIST",
+          "period": "2005 — 2009",
+          "body": "Focus on secure software practices."
+        }
+      ],
+      "skills": [
+        { "name": "AppSec", "level": 90 },
+        { "name": "Threat modeling", "level": 88 },
+        { "name": "Automation", "level": 85 },
+        { "name": "Bot defence", "level": 82 }
+      ],
+      "portfolio": [
+        {
+          "title": "Turnstile rollout",
+          "category": "security",
+          "image": "assets/images/q1x_dark_fullcolour_256x256.png",
+          "url": "https://quoralinex.com/security/turnstile",
+          "summary": "Added Turnstile widgets and Workers validation for all forms."
+        }
+      ],
+      "blog": []
+    },
+    {
+      "slug": "emilysantos",
+      "name": "Emily Santos",
+      "role": "Frontend Engineer",
+      "email": "emily.santos@quoralinex.com",
+      "phone": "+34 93 555 0111",
+      "birthday": "1993-04-14",
+      "location": "Barcelona, ES",
+      "avatar": "assets/images/q1x_github_avatar_200x200.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/emily-santos",
+        "github": "https://github.com/emilysantos",
+        "twitter": "https://twitter.com/emilysantos"
+      },
+      "about": {
+        "intro": "Emily brings the Folio-lite UI to life with performant animations and responsive layouts.",
+        "detail": "She champions accessibility and patterns that keep handoffs from design to code predictable."
+      },
+      "services": [
+        {
+          "title": "Component engineering",
+          "description": "Reusable UI patterns with Storybook-ready examples.",
+          "icon": "assets/images/icon-design.svg"
+        },
+        {
+          "title": "Accessibility QA",
+          "description": "Screen reader, keyboard, and colour contrast audits baked into CI.",
+          "icon": "assets/images/icon-dev.svg"
+        }
+      ],
+      "testimonials": [],
+      "clients": [],
+      "experience": [
+        {
+          "title": "Frontend Engineer",
+          "place": "Quoralinex",
+          "period": "2022 — Present",
+          "body": "Delivers UI updates and performance optimisations across staff profiles."
+        }
+      ],
+      "education": [],
+      "skills": [
+        { "name": "CSS", "level": 92 },
+        { "name": "JavaScript", "level": 90 },
+        { "name": "Accessibility", "level": 88 },
+        { "name": "Testing", "level": 80 }
+      ],
+      "portfolio": [
+        {
+          "title": "Staff carousel",
+          "category": "frontend",
+          "image": "assets/images/q1x_light_fullcolour_512x512.png",
+          "url": "https://quoralinex.com/blog/staff-carousel",
+          "summary": "Auto-rotating profile view with keyboard support."
+        }
+      ],
+      "blog": []
+    },
+    {
+      "slug": "rajpatel",
+      "name": "Raj Patel",
+      "role": "Solutions Architect",
+      "email": "raj.patel@quoralinex.com",
+      "phone": "+91 22 5000 1000",
+      "birthday": "1985-09-22",
+      "location": "Mumbai, IN",
+      "avatar": "assets/images/q1x_github_avatar_main_400x400.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/rajpatel",
+        "github": "https://github.com/rajpatel",
+        "twitter": "https://twitter.com/rajpatel"
+      },
+      "about": {
+        "intro": "Raj designs delivery blueprints for clients moving to the Quoralinex edge stack.",
+        "detail": "He turns requirements into phased migrations with clear governance and rollout metrics."
+      },
+      "services": [
+        {
+          "title": "Architecture sessions",
+          "description": "Discovery, gap analysis, and migration guides for hybrid estates.",
+          "icon": "assets/images/icon-dev.svg"
+        },
+        {
+          "title": "Workshops",
+          "description": "Hands-on enablement for developers adopting Pages and Workers.",
+          "icon": "assets/images/icon-app.svg"
+        }
+      ],
+      "testimonials": [],
+      "clients": [
+        {
+          "name": "Delta Retail",
+          "logo": "assets/images/quoralinex_header_dark_transparent_400w.png",
+          "url": "https://example.com/deltaretail"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Solutions Architect",
+          "place": "Quoralinex",
+          "period": "2018 — Present",
+          "body": "Guides enterprise onboarding and migration projects."
+        }
+      ],
+      "education": [],
+      "skills": [
+        { "name": "Solution design", "level": 90 },
+        { "name": "Workshops", "level": 86 },
+        { "name": "Edge networking", "level": 82 }
+      ],
+      "portfolio": [],
+      "blog": []
+    },
+    {
+      "slug": "sofiahernandez",
+      "name": "Sofia Hernandez",
+      "role": "Delivery Manager",
+      "email": "sofia.hernandez@quoralinex.com",
+      "phone": "+34 91 555 0177",
+      "birthday": "1986-05-29",
+      "location": "Madrid, ES",
+      "avatar": "assets/images/q1x_github_avatar_main_400x400.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/sofia-hernandez",
+        "github": "https://github.com/sofiahernandez",
+        "twitter": "https://twitter.com/sofiadelivers"
+      },
+      "about": {
+        "intro": "Sofia keeps projects predictable with transparent planning and crisp acceptance criteria.",
+        "detail": "She aligns squads, removes blockers, and ensures stakeholders see progress through measurable demos."
+      },
+      "services": [
+        {
+          "title": "Delivery coaching",
+          "description": "Rituals, communication, and risk surfacing that teams can sustain.",
+          "icon": "assets/images/icon-photo.svg"
+        },
+        {
+          "title": "Roadmap governance",
+          "description": "Backlog triage and scope control for multi-team efforts.",
+          "icon": "assets/images/icon-dev.svg"
+        }
+      ],
+      "testimonials": [],
+      "clients": [],
+      "experience": [
+        {
+          "title": "Delivery Manager",
+          "place": "Quoralinex",
+          "period": "2019 — Present",
+          "body": "Owns program delivery and stakeholder communication."
+        }
+      ],
+      "education": [],
+      "skills": [
+        { "name": "Delivery", "level": 90 },
+        { "name": "Agile coaching", "level": 84 },
+        { "name": "Risk management", "level": 82 }
+      ],
+      "portfolio": [],
+      "blog": []
+    },
+    {
+      "slug": "kaiwilliams",
+      "name": "Kai Williams",
+      "role": "Research Lead",
+      "email": "kai.williams@quoralinex.com",
+      "phone": "+1 206 555 0128",
+      "birthday": "1983-10-19",
+      "location": "Seattle, WA",
+      "avatar": "assets/images/q1x_github_avatar_simple_128x128.png",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/kaiwilliams",
+        "github": "https://github.com/kaiwilliams",
+        "twitter": "https://twitter.com/kaiwresearch"
+      },
+      "about": {
+        "intro": "Kai translates customer interviews into roadmap signals that steer the Folio-lite experience.",
+        "detail": "They run discovery, prototype testing, and habit-formation studies to keep the product grounded."
+      },
+      "services": [
+        {
+          "title": "Research operations",
+          "description": "Recruiting, incentives, and consent workflows ready for global use.",
+          "icon": "assets/images/icon-app.svg"
+        },
+        {
+          "title": "Insight synthesis",
+          "description": "Dovetail-ready notes, patterns, and recommendations for teams.",
+          "icon": "assets/images/icon-design.svg"
+        }
+      ],
+      "testimonials": [],
+      "clients": [],
+      "experience": [
+        {
+          "title": "Research Lead",
+          "place": "Quoralinex",
+          "period": "2020 — Present",
+          "body": "Runs discovery and validation for new platform features."
+        }
+      ],
+      "education": [],
+      "skills": [
+        { "name": "Research ops", "level": 90 },
+        { "name": "Facilitation", "level": 86 },
+        { "name": "Synthesis", "level": 84 }
+      ],
+      "portfolio": [],
+      "blog": []
+    }
+  ]
+}
