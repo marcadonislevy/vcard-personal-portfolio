@@ -1,0 +1,13 @@
+/marclevy /index.html?employee=marclevy 200
+/alicejones /index.html?employee=alicejones 200
+/tomjones /index.html?employee=tomjones 200
+/sarahbean /index.html?employee=sarahbean 200
+/lilytang /index.html?employee=lilytang 200
+/danielcho /index.html?employee=danielcho 200
+/emilysantos /index.html?employee=emilysantos 200
+/rajpatel /index.html?employee=rajpatel 200
+/sofiahernandez /index.html?employee=sofiahernandez 200
+/kaiwilliams /index.html?employee=kaiwilliams 200
+
+# Allow extensionless access to any generated teammate stub (keep assets untouched)
+/people/:slug /index.html?employee=:slug 200
