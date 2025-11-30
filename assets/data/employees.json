@@ -86,10 +86,22 @@
         }
       ],
       "skills": [
-        { "name": "Platform architecture", "level": 95 },
-        { "name": "Security automation", "level": 90 },
-        { "name": "Edge performance", "level": 88 },
-        { "name": "Team coaching", "level": 92 }
+        {
+          "name": "Platform architecture",
+          "level": 95
+        },
+        {
+          "name": "Security automation",
+          "level": 90
+        },
+        {
+          "name": "Edge performance",
+          "level": 88
+        },
+        {
+          "name": "Team coaching",
+          "level": 92
+        }
       ],
       "portfolio": [
         {
@@ -121,7 +133,7 @@
           "date": "2024-06-01",
           "image": "assets/images/quoralinex_og_wordmark_strapline.png",
           "url": "https://quoralinex.com/blog/resilient-releases",
-          "excerpt": "Five guardrails we keep on every edge deployment." 
+          "excerpt": "Five guardrails we keep on every edge deployment."
         },
         {
           "title": "Caching wins in practice",
@@ -129,7 +141,7 @@
           "date": "2024-04-18",
           "image": "assets/images/quoralinex_wordmark_gradient_transparent.png",
           "url": "https://quoralinex.com/blog/cache-wins",
-          "excerpt": "Lessons learned while tuning global PoPs." 
+          "excerpt": "Lessons learned while tuning global PoPs."
         }
       ]
     },
@@ -219,10 +231,22 @@
         }
       ],
       "skills": [
-        { "name": "Design systems", "level": 94 },
-        { "name": "Accessibility", "level": 92 },
-        { "name": "React", "level": 88 },
-        { "name": "Research ops", "level": 82 }
+        {
+          "name": "Design systems",
+          "level": 94
+        },
+        {
+          "name": "Accessibility",
+          "level": 92
+        },
+        {
+          "name": "React",
+          "level": 88
+        },
+        {
+          "name": "Research ops",
+          "level": 82
+        }
       ],
       "portfolio": [
         {
@@ -325,10 +349,22 @@
         }
       ],
       "skills": [
-        { "name": "Terraform", "level": 90 },
-        { "name": "Workers/Pages", "level": 92 },
-        { "name": "CI/CD", "level": 88 },
-        { "name": "Monitoring", "level": 84 }
+        {
+          "name": "Terraform",
+          "level": 90
+        },
+        {
+          "name": "Workers/Pages",
+          "level": 92
+        },
+        {
+          "name": "CI/CD",
+          "level": 88
+        },
+        {
+          "name": "Monitoring",
+          "level": 84
+        }
       ],
       "portfolio": [
         {
@@ -431,10 +467,22 @@
         }
       ],
       "skills": [
-        { "name": "Content design", "level": 90 },
-        { "name": "Documentation", "level": 88 },
-        { "name": "Analytics", "level": 82 },
-        { "name": "Launch ops", "level": 86 }
+        {
+          "name": "Content design",
+          "level": 90
+        },
+        {
+          "name": "Documentation",
+          "level": 88
+        },
+        {
+          "name": "Analytics",
+          "level": 82
+        },
+        {
+          "name": "Launch ops",
+          "level": 86
+        }
       ],
       "portfolio": [
         {
@@ -452,7 +500,7 @@
           "date": "2024-04-02",
           "image": "assets/images/q1x_light_fullcolour_256x256.png",
           "url": "https://quoralinex.com/blog/release-notes",
-          "excerpt": "Guidelines we use to keep updates scannable." 
+          "excerpt": "Guidelines we use to keep updates scannable."
         }
       ]
     },
@@ -524,10 +572,22 @@
         }
       ],
       "skills": [
-        { "name": "Product strategy", "level": 88 },
-        { "name": "Analytics", "level": 86 },
-        { "name": "Stakeholder mgmt", "level": 90 },
-        { "name": "Experimentation", "level": 82 }
+        {
+          "name": "Product strategy",
+          "level": 88
+        },
+        {
+          "name": "Analytics",
+          "level": 86
+        },
+        {
+          "name": "Stakeholder mgmt",
+          "level": 90
+        },
+        {
+          "name": "Experimentation",
+          "level": 82
+        }
       ],
       "portfolio": [
         {
@@ -595,10 +655,22 @@
         }
       ],
       "skills": [
-        { "name": "AppSec", "level": 90 },
-        { "name": "Threat modeling", "level": 88 },
-        { "name": "Automation", "level": 85 },
-        { "name": "Bot defence", "level": 82 }
+        {
+          "name": "AppSec",
+          "level": 90
+        },
+        {
+          "name": "Threat modeling",
+          "level": 88
+        },
+        {
+          "name": "Automation",
+          "level": 85
+        },
+        {
+          "name": "Bot defence",
+          "level": 82
+        }
       ],
       "portfolio": [
         {
@@ -653,10 +725,22 @@
       ],
       "education": [],
       "skills": [
-        { "name": "CSS", "level": 92 },
-        { "name": "JavaScript", "level": 90 },
-        { "name": "Accessibility", "level": 88 },
-        { "name": "Testing", "level": 80 }
+        {
+          "name": "CSS",
+          "level": 92
+        },
+        {
+          "name": "JavaScript",
+          "level": 90
+        },
+        {
+          "name": "Accessibility",
+          "level": 88
+        },
+        {
+          "name": "Testing",
+          "level": 80
+        }
       ],
       "portfolio": [
         {
@@ -717,9 +801,18 @@
       ],
       "education": [],
       "skills": [
-        { "name": "Solution design", "level": 90 },
-        { "name": "Workshops", "level": 86 },
-        { "name": "Edge networking", "level": 82 }
+        {
+          "name": "Solution design",
+          "level": 90
+        },
+        {
+          "name": "Workshops",
+          "level": 86
+        },
+        {
+          "name": "Edge networking",
+          "level": 82
+        }
       ],
       "portfolio": [],
       "blog": []
@@ -766,9 +859,18 @@
       ],
       "education": [],
       "skills": [
-        { "name": "Delivery", "level": 90 },
-        { "name": "Agile coaching", "level": 84 },
-        { "name": "Risk management", "level": 82 }
+        {
+          "name": "Delivery",
+          "level": 90
+        },
+        {
+          "name": "Agile coaching",
+          "level": 84
+        },
+        {
+          "name": "Risk management",
+          "level": 82
+        }
       ],
       "portfolio": [],
       "blog": []
@@ -815,12 +917,33 @@
       ],
       "education": [],
       "skills": [
-        { "name": "Research ops", "level": 90 },
-        { "name": "Facilitation", "level": 86 },
-        { "name": "Synthesis", "level": 84 }
+        {
+          "name": "Research ops",
+          "level": 90
+        },
+        {
+          "name": "Facilitation",
+          "level": 86
+        },
+        {
+          "name": "Synthesis",
+          "level": 84
+        }
       ],
       "portfolio": [],
       "blog": []
+    },
+    {
+      "slug": "johndoe",
+      "name": "John Doe",
+      "role": "Trainee",
+      "email": "info@q1x.xyz",
+      "location": "Amsterdam",
+      "avatar": "assets/images/q1x_github_avatar_200x200.png",
+      "about": {
+        "intro": "TBC",
+        "detail": "TBA"
+      }
     }
   ]
 }
