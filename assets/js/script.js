@@ -495,14 +495,26 @@ const restartRotation = () => {
 
 const loadDirectory = async () => {
   try {
-    const response = await fetch('assets/data/employees.json');
+    // Use an explicit relative path and disable caching
+    const response = await fetch('./assets/data/employees.json', {
+      cache: 'no-store'
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
     const data = await response.json();
     state.employees = data.staff || [];
-    setActiveEmployee(resolveSlug());
-    restartRotation();
   } catch (error) {
     console.error('Failed to load employee directory', error);
+    state.employees = [];
   }
+
+  // Always attempt to render, even if we had to fall back
+  setActiveEmployee(resolveSlug());
+  restartRotation();
 };
 
 loadDirectory();
+
