@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Staff Admin – Quoralinex People</title>
+  <link rel="stylesheet" href="assets/css/admin.css" />
+</head>
+<body>
+  <main class="admin-layout">
+    <section class="sidebar">
+      <h1>Staff Admin</h1>
+      <button id="load-data-btn">Load employees.json</button>
+      <select id="employee-select">
+        <option value="">— New employee —</option>
+      </select>
+    </section>
+
+    <section class="editor">
+      <form id="employee-form">
+        <div class="field">
+          <label>Slug</label>
+          <input name="slug" required />
+        </div>
+        <div class="field">
+          <label>Name</label>
+          <input name="name" required />
+        </div>
+        <div class="field">
+          <label>Role</label>
+          <input name="role" required />
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input name="email" type="email" required />
+        </div>
+        <div class="field">
+          <label>Location</label>
+          <input name="location" />
+        </div>
+        <div class="field">
+          <label>Avatar URL</label>
+          <input name="avatar" />
+        </div>
+
+        <div class="field">
+          <label>About intro</label>
+          <textarea name="about_intro"></textarea>
+        </div>
+        <div class="field">
+          <label>About detail</label>
+          <textarea name="about_detail"></textarea>
+        </div>
+
+        <!-- You can add more sections here: services, skills, etc. -->
+
+        <button type="submit">Update in memory</button>
+      </form>
+
+      <section class="output">
+        <h2>employees.json preview</h2>
+        <textarea id="json-output" readonly></textarea>
+        <p class="hint">
+          Copy this JSON and paste it into <code>assets/data/employees.json</code> in GitHub.
+        </p>
+      </section>
+    </section>
+
+    <script src="assets/js/admin.js"></script>
+  </main>
+</body>
+</html>
