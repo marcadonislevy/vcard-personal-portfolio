@@ -384,8 +384,11 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   gap: 15px;
 }
+
+.info-content { min-width: 0; }
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
@@ -399,6 +402,14 @@ main {
   letter-spacing: -0.25px;
   margin-bottom: 10px;
 }
+
+.profile-name {
+  white-space: normal;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.profile-name.long-name { font-size: calc(var(--fs-3) - 2px); }
 
 .info-content .title {
   color: var(--white-1);
@@ -1291,6 +1302,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+@media (max-width: 480px) {
+  .sidebar-info {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .info-content { width: 100%; }
+}
+
+
+
+
+
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1903,10 +1927,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { width: 150px; }
 
-  .info-content .name {
-    white-space: nowrap;
-    text-align: center;
-  }
+  .info-content .name { text-align: center; }
 
   .info-content .title { margin: auto; }
 

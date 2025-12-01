@@ -94,7 +94,14 @@ const renderSidebar = (employee) => {
   const avatarEl = qs('[data-avatar]');
   const aboutTitle = qs('[data-about-title]');
 
-  if (nameEl) nameEl.textContent = employee.name;
+  if (nameEl) {
+    nameEl.textContent = employee.name;
+    if (employee.name && employee.name.length > 20) {
+      nameEl.classList.add('long-name');
+    } else {
+      nameEl.classList.remove('long-name');
+    }
+  }
   if (roleEl) roleEl.textContent = employee.role;
   if (avatarEl) {
     avatarEl.src = employee.avatar;
